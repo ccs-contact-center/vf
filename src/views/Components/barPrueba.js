@@ -17,8 +17,8 @@ class Prueba extends React.Component {
       data: {
         datasets: [
           {
-            label: "Llamadas Ofrecidas",
-            data: [0, 1, 4, 1, 2, 1, 0, 2, 3, 1, 2, 1, 0, 0, 2, 1, 1, 0, 7, 1, 0, 2, 7, 2, 3, 6, 0, 0],
+            label: "% Alcance",
+            data: [0,  0, 0, 0,  0, 0, 0,  0, 0, 0,  0, 0],
             pointHoverRadius: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
             type: "line",
             backgroundColor: "rgba(192,3,39,0.7)",
@@ -26,14 +26,14 @@ class Prueba extends React.Component {
             borderColor: 'rgba(255, 99, 132, 0.2)',
           },
           {
-            label: "Llamadas Abandonadas",
-            data: [0, 1, 0.75, 0.100, 0, 0, 0, 0.50, 0.33, 0, 0.50, 0, 0, 0, 0.100, 0, 0, 0, 0.57, 0, 0, 0, 0.71, 0, 0, 0],
+            label: "Objetivo venta",
+            data: [270113.44, 300000, 110000, 110000],
             type: "bar",
             backgroundColor: "rgba(192,3,39,0.7)",
           },
           {
-            label: "Llamadas Atendidas",
-            data: [0, 1, 4, 1, 2, 1, 0, 2, 3, 1, 2, 1, 0, 0, 2, 1, 1, 0, 7, 1, 0, 2, 7, 2, 3, 6, 0, 0],
+            label: "Monto vendido",
+            data: [175352.6, 218979.17, 133623.88, 96484.74],
             type: "bar",
             backgroundColor: "#737276"
           },
@@ -43,34 +43,19 @@ class Prueba extends React.Component {
 
         ],
         labels: [
-          "Lun 01",
-          "Mar 02",
-          "Mie 03",
-          "Jue 04",
-          "Vie 05",
-          "Sab 06",
-          "Dom 07",
-          "Lun 08",
-          "Mar 09",
-          "Mie 10",
-          "Jue 11",
-          "Vie 12",
-          "Sab 13",
-          "Dom 14",
-          "Lun 15",
-          "Mar 16",
-          "Mie 17",
-          "Jue 18",
-          "Vie 19",
-          "Sab 20",
-          "Dom 21",
-          "Lun 22",
-          "Mar 23",
-          "Mie 24",
-          "Jue 25",
-          "Vie 26",
-          "Sab 27",
-          "Dom 28",
+          "Enero",
+          "Febrero",
+          "Marzo",
+          "Abril",
+          "Mayo",
+          "Junio",
+          "Julio",
+          "Agosto",
+          "Septiembre",
+          "Octubre",
+          "Noviembre",
+          "Diciembre",
+         
 
         ]
       },
@@ -96,7 +81,7 @@ class Prueba extends React.Component {
                 fontColor: "rgba(255,255,255,0.7)",
                 fontSize: 10
               },
-              // stacked: true,
+               //stacked: true,
               ticks: {
                 beginAtZero: true,
                 min: 0,
@@ -113,7 +98,7 @@ class Prueba extends React.Component {
                 fontSize: 10
               },
               display: true,
-              stacked: true,
+              //stacked: false,
               barThickness: 25,
               ticks: {
                 beginAtZero: true,
