@@ -17,7 +17,7 @@ import estrate3 from "../assets/img/estrate3.png";
 import estrate4 from "../assets/img/estrate4.png";
 import { PieChart1,  BarChartAMO1,   } from "./Components/Graphics"
 import { Tabla1, TablaAMO1, TablaTO1, TablaIIO4, TablaIIO5,TablaVW1,TablaVW2,TablaTW2,TablaTW3,  } from "./Components/Tablas"
-//import MixCharVW1 from "./Components/MixChart"
+import Prueba from "./Components/barPrueba"
 import { MapInteractionCSS } from 'react-map-interaction';
 
 class Index extends Component {
@@ -99,26 +99,7 @@ class Index extends Component {
                   </div>
                 </div>
 
-                <div className="section centrado-fila">
-                  <Container>
-                    <Row>
-                      <Col xs="12" >
-                        <h2 className="border border-bottom border-danger">
-                          <span>TIPIFICACIÓN WHATS   </span>
-                        </h2>
-                      </Col>
-                    </Row>
-                  </Container>
-                  <div style={{ width: "95%", height: "80%" }}>
-                    <MapInteractionCSS
-                      valueVW1={this.state.valueVW1}
-                      onChange={(valueVW1) => this.setState({ valueVW1 })}
-                      className="centrado-fila"
-                    >
-                     <TablaTW3/>
-                    </MapInteractionCSS>
-                  </div>
-                </div>
+                
 
 
 
@@ -341,7 +322,20 @@ class Index extends Component {
                     </Row>
                   </Container>
                 </div>
-{/* aqui falta */}
+                <div className="section centrado-fila">
+                  <Container>
+                    <Row>
+                      <Col xs="12" >
+                        <h2 className="border border-bottom border-danger">
+                          <span>VENTAS WHATS  </span>
+                        </h2>
+                      </Col>
+                      <Col xs="12" >
+                        <Prueba/>
+                        </Col>
+                    </Row>
+                  </Container>
+                </div>
                 <div className="section centrado-fila">
                   <Container>
                     <Row>
