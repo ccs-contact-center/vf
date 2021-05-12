@@ -271,3 +271,9 @@ table.alt tfoot {
   height: 80% !important
   ;
 }
+
+.tabla-p-t-b{
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+
+}
