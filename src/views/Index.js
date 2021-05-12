@@ -16,8 +16,8 @@ import estrate2 from "../assets/img/estrate2.png";
 import estrate3 from "../assets/img/estrate3.png";
 import estrate4 from "../assets/img/estrate4.png";
 import { PieChart1,  BarChartAMO1,   } from "./Components/Graphics"
-import { Tabla1, TablaAMO1, TablaTO1, TablaIIO4, TablaIIO5,  } from "./Components/Tablas"
-//import MixChart1 from "./Components/MixChart"
+import { Tabla1, TablaAMO1, TablaTO1, TablaIIO4, TablaIIO5,TablaVW1,TablaVW2,TablaTW2,TablaTW3,  } from "./Components/Tablas"
+//import MixCharVW1 from "./Components/MixChart"
 import { MapInteractionCSS } from 'react-map-interaction';
 
 class Index extends Component {
@@ -95,20 +95,20 @@ class Index extends Component {
                   </div>
                 </div>
 
-                {/* <div className="section centrado-fila">
+                <div className="section centrado-fila">
                   <Container>
                     <Row>
                       <Col xs="12" >
-                        <h2 className="border border-bottom border-danger"><span>INTERVALO IN/OUT  </span></h2>
-                        <h1 className="text-justify">Se realiza modificación en la grabación del IVR para incentivar
-                        la venta vía WhatsApp.<br />
-                        El horario con mayor demanda es de 13:00 pm a 18:00 pm. <br />
-                        Nuestro agente se enfoca en ventas cruzadas.<br />
-                        Nuestro agente se enfoca en ventas cruzadas.</h1>
+                        <h2 className="border border-bottom border-danger">
+                          <span>TIPIFICACIÓN WHATS   </span>
+                        </h2>
+                      </Col>
+                      <Col xs="12" >
+                      <TablaTW3/>
                       </Col>
                     </Row>
                   </Container>
-                </div> */}
+                </div>
 
 
 
@@ -301,6 +301,52 @@ class Index extends Component {
                     </Row>
                   </Container>
                 </div>
+                <div className="section centrado-fila">
+                  <Container>
+                    <Row>
+                      <Col xs="12" >
+                        <h2 className="border border-bottom border-danger">
+                          <span>VENTAS WHATS  </span>
+                        </h2>
+                        <TablaVW1/>
+                      </Col>
+                    </Row>
+                  </Container>
+                </div>
+                <div className="section centrado-fila">
+                  <Container>
+                    <Row>
+                      <Col xs="12" >
+                        <h2 className="border border-bottom border-danger">
+                          <span>VENTAS WHATS  </span>
+                        </h2>
+                        <TablaVW2/>
+                        <p>
+                          <ul>
+                            <li>Ticket promedio $798</li>
+                            <li>Alcance en meta 87.71% del 1 al 30 de Abril. </li>
+                          </ul>
+                        </p>
+                      </Col>
+                    </Row>
+                  </Container>
+                </div>
+
+                <div className="section centrado-fila">
+                  <Container>
+                    <Row>
+                      <Col xs="12" >
+                        <h2 className="border border-bottom border-danger">
+                          <span>TIPIFICACIÓN WHATS   </span>
+                        </h2>
+                      </Col>
+                      <Col xs="12" >
+                      <TablaTW2/>
+                      </Col>
+                    </Row>
+                  </Container>
+                </div>
+
 
 
 
