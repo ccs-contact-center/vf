@@ -983,35 +983,134 @@ class TablaTW3 extends Component {
                 <table className="table table-bordered" >
                     <thead>
                         <tr className="bg-danger">
-                            <th scope="col">Categoria - Subcategoria Tip.</th>
-                            <th scope="col">Total</th>
+                            <th scope="col">INFORMES</th>
+                            <th scope="col">78</th>
+                            <th scope="col">23%</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td> Tipificaciones Whats App </td>
-                            <td>336</td>
+                            <td> INFO DE TIENDAS</td>
+                            <td>2</td>
+                            <td>1%</td>
                         </tr>
                         <tr>
-                            <td> Whats App info Venta </td>
-                            <td>250</td>
+                            <td> NUEVO LANZAMIENTO</td>
+                            <td>30</td>
+                            <td>9%</td>
                         </tr>
                         <tr>
-                            <td>% conversion Whats App info venta</td>
+                            <td> NÚM. ASOCIADA</td>
+                            <td>0</td>
+                            <td>0%</td>
+                        </tr>
+                        <tr>
+                            <td> PROMOCIONES</td>
+                            <td>43</td>
+                            <td>13%</td>
+                        </tr>
+                        <tr>
+                            <td> VICKY PUNTOS</td>
+                            <td>3</td>
+                            <td>1%</td>
+                        </tr>
+                        <tr className="bg-danger">
+                            <th scope="col">NO VENTA</th>
+                            <th scope="col">10</th>
+                            <th scope="col">3%</th>
+                        </tr>
+                        <tr>
+                            <td> SIN EXISTENCIAS, NO CUBRE MONTO ENVÍO  GRATIS</td>
+                            <td>5</td>
+                            <td>1%</td>
+                        </tr>
+                        <tr>
+                            <td> SIN EXISTENCIAS, VA A IR A TIENDA</td>
+                            <td>0</td>
+                            <td>0%</td>
+                        </tr>   
+                        <tr>
+                            <td> SIN EXISTENCIAS, VA A SOLICITAR MÁS OPCIONES</td>
+                            <td>5</td>
+                            <td>1%</td>
+                        </tr>
+                        <tr className="bg-danger">
+                            <th scope="col">PROSPECTO</th>
+                            <th scope="col">150</th>
+                            <th scope="col">45%</th>
+                        </tr>
+                        <tr>
+                            <td> LEVANTA PEDIDO PROMESA DE PAGO</td>
+                            <td>5</td>
+                            <td>1%</td>
+                        </tr>
+                        <tr>
+                            <td> SOLICITA ENVÍO SEXY BOOK</td>
+                            <td>1</td>
+                            <td>0%</td>
+                        </tr>
+                        <tr>
+                            <td> SOLICITA EXISTENCIAS</td>
+                            <td>121</td>
                             <td>36%</td>
                         </tr>
                         <tr>
-                            <td>Ventas en bitácora</td>
+                            <td> SOLICITA REGISTRO</td>
+                            <td>24</td>
+                            <td>7%</td>
+                        </tr>
+                        <tr className="bg-danger">
+                            <th scope="col">QUEJAS</th>
+                            <th scope="col">5</th>
+                            <th scope="col">1%</th>
+                        </tr>
+                        <tr>
+                            <td> ERROR EN ENTREGA</td>
+                            <td>0</td>
+                            <td>0%</td>
+                        </tr>
+                        <tr>
+                            <td> NO LLEGA SU PEDIDO</td>
+                            <td>2</td>
+                            <td>1%</td>
+                        </tr>
+                        <tr>
+                            <td>PRODUCTO DAÑADO</td>
+                            <td>0</td>
+                            <td>0%</td>
+                        </tr>
+                        <tr>
+                            <td>PRODUCTO FALTANTE</td>
+                            <td>3</td>
+                            <td>1%</td>
+                        </tr>
+                        <tr className="bg-danger">
+                            <th scope="col">POSTVENTA</th>
+                            <th scope="col">2</th>
+                            <th scope="col">1%</th>
+                        </tr>
+                        <tr>
+                            <td>SEGUIMIENTO A PEDIDO</td>
+                            <td>1</td>
+                            <td>0%</td>
+                        </tr>
+                        <tr>
+                            <td>SOLICITA SU GUÍA</td>
+                            <td>1</td>
+                            <td>0%</td>
+                        </tr>
+                        <tr className="bg-danger">
+                            <th scope="col">VENTA</th>
+                            <th scope="col">89</th>
+                            <th scope="col">26%</th>
+                        </tr>
+                        <tr>
+                            <td>LEVANTA PEDIDO PAGADO</td>
                             <td>89</td>
+                            <td>26%</td>
                         </tr>
-                        <tr>
-                            <td>Monto vendido</td>
-                            <td>$ 96,484.74 </td>
-                        </tr>
-                        <tr>
-                            <td>Ticket Promedio</td>
-                            <td>$    1,084.10  </td>
-                        </tr>
+                        
+                       
                     </tbody>
                 </table>
             </div>
