@@ -322,7 +322,7 @@ class TablaIIO4 extends Component {
             <div >
                 <table className="table table-bordered table-sm" >
                     <thead>
-                    <tr className="bg-danger">
+                        <tr className="bg-danger">
                             <th ColSpan="7" scope="col">Fecha</th>
                         </tr>
                         <tr className="bg-danger">
@@ -793,6 +793,224 @@ class TablaIIO5 extends Component {
                             <th className="bg-danger">29</th>
                             <th className="bg-danger">11</th>
                             <th className="bg-danger">73%</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        )
+    }
+}
+
+
+class TablaVW1 extends Component {
+    render() {
+        return (
+            <div>
+                <table className="table table-bordered" >
+                    <thead>
+                        <tr className="bg-danger">
+                            <th scope="col">Mes</th>
+                            <th scope="col">Objetivo venta</th>
+                            <th scope="col">Monto vendido</th>
+                            <th scope="col">% Alcance</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <th scope="row" className="bg-danger tabla-p-t-b">Enero</th>
+                            <td className=" tabla-p-t-b">$270,113.44</td>
+                            <td className=" tabla-p-t-b">$175,352.60</td>
+                            <th scope="row" className="bg-danger tabla-p-t-b">65.00%</th>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger tabla-p-t-b">Febrero</th>
+                            <td className=" tabla-p-t-b">$300,000.00 </td>
+                            <td className=" tabla-p-t-b">$218,979.17 </td>
+                            <th scope="row" className="bg-danger tabla-p-t-b">72.99%</th>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger tabla-p-t-b">Marzo</th>
+                            <td className=" tabla-p-t-b">$110,000.00 </td>
+                            <td className=" tabla-p-t-b">$133,623.88 </td>
+                            <th scope="row" className="bg-danger tabla-p-t-b">121.48%</th>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger tabla-p-t-b">Abril</th>
+                            <td className=" tabla-p-t-b">$110,000.00 </td>
+                            <td className=" tabla-p-t-b">$96,484.74 </td>
+                            <th scope="row" className="bg-danger tabla-p-t-b">87.71%</th>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger tabla-p-t-b">Mayo</th>
+                            <td className=" tabla-p-t-b">-</td>
+                            <td className=" tabla-p-t-b">-</td>
+                            <th scope="row" className="bg-danger tabla-p-t-b">-</th>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger tabla-p-t-b">Junio</th>
+                            <td className=" tabla-p-t-b">-</td>
+                            <td className=" tabla-p-t-b">-</td>
+                            <th scope="row" className="bg-danger tabla-p-t-b">-</th>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger tabla-p-t-b">Julio</th>
+                            <td className=" tabla-p-t-b">-</td>
+                            <td className=" tabla-p-t-b">-</td>
+                            <th scope="row" className="bg-danger tabla-p-t-b">-</th>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger tabla-p-t-b">Agosto</th>
+                            <td className=" tabla-p-t-b">-</td>
+                            <td className=" tabla-p-t-b">-</td>
+                            <th scope="row" className="bg-danger tabla-p-t-b">-</th>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger tabla-p-t-b">Septiembre</th>
+                            <td className=" tabla-p-t-b">-</td>
+                            <td className=" tabla-p-t-b">-</td>
+                            <th scope="row" className="bg-danger tabla-p-t-b">-</th>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger tabla-p-t-b">Octubre</th>
+                            <td className=" tabla-p-t-b">-</td>
+                            <td className=" tabla-p-t-b">-</td>
+                            <th scope="row" className="bg-danger tabla-p-t-b">-</th>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger tabla-p-t-b">Noviembre</th>
+                            <td className=" tabla-p-t-b">-</td>
+                            <td className=" tabla-p-t-b">-</td>
+                            <th scope="row" className="bg-danger tabla-p-t-b">-</th>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger tabla-p-t-b">Diciembre</th>
+                            <td className=" tabla-p-t-b">-</td>
+                            <td className=" tabla-p-t-b">-</td>
+                            <th scope="row" className="bg-danger tabla-p-t-b">-</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        )
+    }
+}
+
+class TablaVW2 extends Component {
+    render() {
+        return (
+            <div>
+                <table className="table table-bordered" >
+                    <thead>
+                        <tr className="bg-danger">
+                            <th scope="col">WHATSAPP</th>
+                            <th scope="col">Monto vendido</th>
+                            <th scope="col">%</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" className="bg-danger">WHATSAPP</th>
+                            <td> $92,510.74 </td>
+                            <td>95.9%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">IN</th>
+                            <td> $3,974.00 </td>
+                            <td>4.1%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">OUT</th>
+                            <td>-</td>
+                            <td>0.0%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        )
+    }
+}
+
+
+class TablaTW2 extends Component {
+    render() {
+        return (
+            <div>
+                <table className="table table-bordered" >
+                    <thead>
+                        <tr className="bg-danger">
+                            <th scope="col">Categoria - Subcategoria Tip.</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> Tipificaciones Whats App </td>
+                            <td>336</td>
+                        </tr>
+                        <tr>
+                            <td> Whats App info Venta </td>
+                            <td>250</td>
+                        </tr>
+                        <tr>
+                            <td>% conversion Whats App info venta</td>
+                            <td>36%</td>
+                        </tr>
+                        <tr>
+                            <td>Ventas en bitácora</td>
+                            <td>89</td>
+                        </tr>
+                        <tr>
+                            <td>Monto vendido</td>
+                            <td>$ 96,484.74 </td>
+                        </tr>
+                        <tr>
+                            <td>Ticket Promedio</td>
+                            <td>$    1,084.10  </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        )
+    }
+}
+
+
+class TablaTW3 extends Component {
+    render() {
+        return (
+            <div>
+                <table className="table table-bordered" >
+                    <thead>
+                        <tr className="bg-danger">
+                            <th scope="col">Categoria - Subcategoria Tip.</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> Tipificaciones Whats App </td>
+                            <td>336</td>
+                        </tr>
+                        <tr>
+                            <td> Whats App info Venta </td>
+                            <td>250</td>
+                        </tr>
+                        <tr>
+                            <td>% conversion Whats App info venta</td>
+                            <td>36%</td>
+                        </tr>
+                        <tr>
+                            <td>Ventas en bitácora</td>
+                            <td>89</td>
+                        </tr>
+                        <tr>
+                            <td>Monto vendido</td>
+                            <td>$ 96,484.74 </td>
+                        </tr>
+                        <tr>
+                            <td>Ticket Promedio</td>
+                            <td>$    1,084.10  </td>
                         </tr>
                     </tbody>
                 </table>
@@ -1449,4 +1667,7 @@ class Tabla7 extends Component {
 
 
 
-export { Tabla1, TablaAMO1,TablaTO1,TablaIIO4,TablaIIO5, Tabla3, Tabla4, Tabla5, Tabla6, Tabla7 }
+export {
+    Tabla1, TablaAMO1, TablaTO1, TablaIIO4, TablaIIO5, TablaVW1, TablaVW2,TablaTW2,TablaTW3,
+    Tabla3, Tabla4, Tabla5, Tabla6, Tabla7
+}
