@@ -43,6 +43,10 @@ class Index extends Component {
       valueII4: {
         scale: 1,
         translation: { x: 0, y: 0 }
+      },
+      valueVW1: {
+        scale: 1,
+        translation: { x: 0, y: 0 }
       }
     };
   }
@@ -103,11 +107,17 @@ class Index extends Component {
                           <span>TIPIFICACIÓN WHATS   </span>
                         </h2>
                       </Col>
-                      <Col xs="12" >
-                      <TablaTW3/>
-                      </Col>
                     </Row>
                   </Container>
+                  <div style={{ width: "95%", height: "80%" }}>
+                    <MapInteractionCSS
+                      valueVW1={this.state.valueVW1}
+                      onChange={(valueVW1) => this.setState({ valueVW1 })}
+                      className="centrado-fila"
+                    >
+                     <TablaTW3/>
+                    </MapInteractionCSS>
+                  </div>
                 </div>
 
 
@@ -331,7 +341,7 @@ class Index extends Component {
                     </Row>
                   </Container>
                 </div>
-
+{/* aqui falta */}
                 <div className="section centrado-fila">
                   <Container>
                     <Row>
@@ -346,11 +356,26 @@ class Index extends Component {
                     </Row>
                   </Container>
                 </div>
-
-
-
-
-                {/* aqui no va lo chido */}
+                <div className="section centrado-fila">
+                  <Container>
+                    <Row>
+                      <Col xs="12" >
+                        <h2 className="border border-bottom border-danger">
+                          <span>TIPIFICACIÓN WHATS   </span>
+                        </h2>
+                      </Col>
+                    </Row>
+                  </Container>
+                  <div style={{ width: "95%", height: "80%" }}>
+                    <MapInteractionCSS
+                      valueVW1={this.state.valueVW1}
+                      onChange={(valueVW1) => this.setState({ valueVW1 })}
+                      className="centrado-fila"
+                    >
+                     <TablaTW3/>
+                    </MapInteractionCSS>
+                  </div>
+                </div>
                 <div className="section">
                   <Container>
                     <Row>
